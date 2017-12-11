@@ -1,4 +1,4 @@
-Starter Workflow Template
+Starter Workflow Template W/ Pug
 ========================
 
 This is just a template I made to start off. It uses gulp and webpack to:
@@ -7,6 +7,7 @@ This is just a template I made to start off. It uses gulp and webpack to:
 2. Uglify your js in the final output
 3. Use Sass and have the output a css file
 4. Use ES6 (I added jquery just to test, you can delete if you want)
+5. Pug Templating has been included for this release
 
 Getting Started
 ===============
@@ -14,5 +15,6 @@ Getting Started
 2. Run yarn or npm install to get the dev-dependencies
 3. Run gulp watch to start browser-sync and file watching
 4. Once you save changes in the src file, the dist file will automatically be created
-5. The index.html file included has reference to the dist, so as soon as you make your changes, 
-they will appear in the browser
+5. The index.pug file included has reference to the dist, so as soon as you make your changes,
+they will appear in the browser.
+6. The html file that is produced will be minified
